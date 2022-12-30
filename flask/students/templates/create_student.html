@@ -1,0 +1,16 @@
+<form method="POST" action="create">
+    {{ form.csrf_token }}
+    {{ form.lastName.label }}
+    {{ form.lastName(size=20) }}
+    {{ form.firstName.label }}
+    {{ form.firstName(size=20) }}
+    {{ form.patronymic.label }}
+    {{ form.patronymic(size=20) }}
+    {{ form.birthDate.label }}
+    {{ form.birthDate(size=20) }}
+    {{ form.university.label }}
+    {{ form.university(size=20) }}
+    {{ form.year.label }}
+    {{ form.year(size=20) }}
+    {{ form.create() }}
+</form>

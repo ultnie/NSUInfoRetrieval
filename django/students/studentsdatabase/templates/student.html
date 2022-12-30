@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Student info</title>
+</head>
+<body>
+    <h1>Student info</h1>
+    <p>Student id: {{id}}</p>
+    <p>Second name: {{secondName}}</p>
+    <p>First name: {{firstName}}</p>
+    <p>Patronymic: {{patronymic}}</p>
+    <p>Birth Date: {{birthDate}}</p>
+    <p>University id: <a href="../university/{{university.id}}">{{university.shortName}}</a></p>
+    <p>Year: {{year}}</p>
+    <td><a href="{{id}}/delete">Удалить</a></td>
+    <td><a href="{{id}}/update">Изменить</a></td>
+</body>
+</html>

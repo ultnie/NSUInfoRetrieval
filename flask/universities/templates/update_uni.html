@@ -1,0 +1,10 @@
+<form method="POST" action="update">
+    {{ form.csrf_token }}
+    {{ form.fullName.label }}
+    {{ form.fullName(size=20) }}
+    {{ form.shortName.label }}
+    {{ form.shortName(size=20) }}
+    {{ form.creationDate.label }}
+    {{ form.creationDate(size=20) }}
+    {{ form.create() }}
+</form>
